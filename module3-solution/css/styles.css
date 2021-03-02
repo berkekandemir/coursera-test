@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
@@ -67,7 +70,7 @@ body {
     background: #f8cb62;
 }
 
-.our-menu {
+#our-menu {
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -77,9 +80,9 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     background-color: #999999;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .descpription {
@@ -91,13 +94,23 @@ body {
     padding-top: 20px;
     font-size: large;
     color: black;
-    overflow: auto;
-    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.top-link {
+    clear: both;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    font-size: large;
+    color: black;
+    overflow: hidden;
 }
 
 .type {
-    font-weight: bold;
-    font-size: x-large;
+    /*font-weight: bold;
+    font-size: x-large;*/
     color: black;
     padding-top: 10px;
   }
